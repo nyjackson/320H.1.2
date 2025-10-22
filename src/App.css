@@ -1,0 +1,63 @@
+h1{
+    color: tomato;
+}
+h2{
+  color:black;
+  font-size:20pt;
+}
+
+ul{
+  display:flex;
+  padding:0; 
+  justify-content:space-between;
+}
+ul > li {
+  list-style-type: none; 
+}
+
+article{
+  margin-bottom:4rem;
+  border: 1px solid lightgray;
+  padding-bottom:2rem;
+}
+
+.content::first-letter{
+font-size: 40pt;
+}
+header > nav > ul > li > a{
+  color: lightgray;
+}
+footer > nav > ul > li > a{
+  color: tomato;
+}
+html{
+  border-left:5px solid lightgray;
+}
+
+body{
+  min-width:100%;
+  max-width:1000px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+header, main, footer{
+  padding:1rem 2rem;
+}
+img{
+  width:100%;
+}
+
+#continue {
+  font-weight: bold;
+  text-align: right;
+  padding-right:1%;
+}
+
+#continue > a{
+    color:tomato;
+}
+
+#copyright{
+  color:lightgray;
+}
