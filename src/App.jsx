@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Header />
-    <Article date = "11/12/20" name = "On the Steet in Brooklyn" content ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam qui facilis ipsam. Distinctio eaque at, doloremque ea doloribus sint corrupti dicta repellendus molestias natus expedita harum odio eveniet recusandae ad."
+    <Article date = "11/12/20" name = "On the Street in Brooklyn" content ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam qui facilis ipsam. Distinctio eaque at, doloremque ea doloribus sint corrupti dicta repellendus molestias natus expedita harum odio eveniet recusandae ad."
     imgSrc = {photo1} imagAlt = "blog-image-1.jpg"/>
     <Article date = "11/11/20" name = "Vintage in Vogue" content ="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam qui facilis ipsam. Distinctio eaque at, doloremque ea doloribus sint corrupti dicta repellendus molestias natus expedita harum odio eveniet recusandae ad."
     imgSrc = {photo2} imagAlt = "blog-image-2.jpg"/>
